@@ -1,0 +1,77 @@
+body{
+    background-image: url('dog3.jpeg');
+    height: 100%vh;
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    background-color: rgba(54, 54, 11, 0.521);
+    /* background-color: rgba(0, 0, 0, 0.349); */
+    }
+h1 {
+font-family: 'Shadows Into Light', cursive;
+font-size: 60px;
+color: white;
+font-weight: 800;
+}
+.column{
+    float: right;
+}
+footer{
+    /* margin-top: 10px; */
+    text-align: center;
+    padding-left: 50%;
+}
+.search {
+    float: right;
+}
+html, body {
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    max-width: 40%;
+    max-height: 40%;
+  }
+  
+  .dogs {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .dogs img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  p{
+      color: white;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .dogs {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .pics {
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .body{
+        max-height:100%;
+    }
+    .pics{
+        max-width:90%;
+        padding: 5%;
+    }
+  }
+ 
